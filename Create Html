@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>RGB To Hex</title>
+  </head>
+  <body onload="findHexValue();">
+  
+	<!--Color Input-->
+	<input type="color" id="color" oninput="findHexValue();">
+	
+	<!--Where the Hex value will be printed-->
+	<input placeholder="Hex value will come here..." id="hexValueResult" readonly><br><br>
+	
+	<!--Copies the Hex value-->
+	<button onclick="copyResult();">Copy</button><br><br><br><br><br><br><br>
+	<div id="msg">Copied to clipboard!</div>
+  </body>
+</html>
